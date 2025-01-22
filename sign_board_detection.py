@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 # Load the image
-img_path = r"C:\Users\Shriya\Desktop\Extracurricular\TMRT WORK\road_marking.jpg"
+img_path = "road_marking.jpg"
 img = cv2.imread(img_path)
 
 # Show the original image

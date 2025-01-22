@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 # Load the image
-img_path = r"C:\Users\Shriya\Desktop\Extracurricular\TMRT WORK\Vr_person.jpg"
+img_path = "Vr_person.jpg"
 img = cv2.imread(img_path)
 cv2.imshow("Original Image", img)
 cv2.waitKey(0)

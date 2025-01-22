@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-img_path=r"C:\Users\Shriya\Desktop\Extracurricular\TMRT WORK\Vr_person.jpg"
+img_path="Vr_person.jpg"
 img=cv2.imread(img_path)
 img=cv2.resize(img,(1200,750))
 cv2.imshow("Image",img)
